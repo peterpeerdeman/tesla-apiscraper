@@ -64,7 +64,7 @@ resume = False
 scraper_api_version = 2019.5
 
 influx_client = InfluxDBClient(
-    a_influx_host, a_influx_port, a_influx_user, a_influx_pass, a_influx_db)
+    a_influx_host, a_influx_port, a_influx_user, a_influx_pass, a_influx_db, False, False, 120)
 
 
 def setup_custom_logger(name):
